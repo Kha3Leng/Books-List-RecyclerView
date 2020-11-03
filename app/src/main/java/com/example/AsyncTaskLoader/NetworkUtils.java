@@ -1,4 +1,4 @@
-package com.example.apiasy;
+package com.example.AsyncTaskLoader;
 
 import android.net.Uri;
 import android.util.Log;

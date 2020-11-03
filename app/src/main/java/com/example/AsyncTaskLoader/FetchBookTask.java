@@ -1,4 +1,4 @@
-package com.example.apiasy;
+package com.example.AsyncTaskLoader;
 
 import android.os.AsyncTask;
 import android.widget.TextView;
@@ -7,7 +7,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.IOException;
 import java.lang.ref.WeakReference;
 
 public class FetchBookTask extends AsyncTask<String, Void, String> {
