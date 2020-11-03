@@ -3,4 +3,7 @@
     <string name="instruction">Enter a book name to find out who wrote the book.</string>
     <string name="hint">Enter title or author or snippet</string>
     <string name="search">Search In Google Book</string>
+    <string name="loading">Loading..</string>
+    <string name="query">No query string</string>
+    <string name="no_internet">No Internet Connection</string>
 </resources>
