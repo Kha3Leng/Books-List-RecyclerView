@@ -1,4 +1,4 @@
-package com.example.AsyncTaskLoader;
+package com.example.MaterialBooks;
 
 import android.net.Uri;
 import android.util.Log;
@@ -27,7 +27,7 @@ public class NetworkUtils {
 
             Uri uri = Uri.parse(BASE_URL).buildUpon()
                     .appendQueryParameter(QUERY_PARAM, query)
-                    .appendQueryParameter(MAX_RESULTS, "10")
+                    .appendQueryParameter(MAX_RESULTS, "15")
                     .appendQueryParameter(PRINT_TYPE, "books")
                     .build();
             URL requestURL = new URL(uri.toString());
